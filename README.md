@@ -193,6 +193,12 @@ These transformations improved data quality, consistency, and reporting performa
 
 - The dashboard makes it easier to track KPIs and support business decisions using data rather than assumptions.
 
+  ## Conclusion
+
+-This project was developed to analyze sales performance, customer behavior, product performance, and regional trends using Power BI. The dashboard provides interactive visualizations and meaningful insights that help in understanding business performance and supporting data-driven decision-making.
+
+-The project demonstrates the use of Power Query, Data Modeling, DAX calculations, Time Intelligence functions, Drillthrough analysis, and dashboard design concepts in a real-world business scenario.
+
 
 
 
