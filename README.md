@@ -95,6 +95,103 @@ The dashboard transforms raw business data into meaningful insights using Power 
 
 This dashboard provides a complete business intelligence solution for analyzing sales, customers, products, and regional performance through interactive visualizations and advanced analytics.
 
+---
+
+## Data Model
+<img width="1710" height="1107" alt="Data Modeling" src="https://github.com/user-attachments/assets/d7d21c4d-0a18-4c8e-9082-86f957579547" />
+
+
+The project follows a Star Schema data model to ensure efficient reporting and analysis.
+
+### Fact Tables
+- Sales_Fact
+- Returns_Fact
+
+### Dimension Tables
+- Customer_Dim
+- Product_Dim
+- Region_Dim
+- Date_Dim
+
+### Relationships
+- Date_Dim → Sales_Fact
+- Date_Dim → Returns_Fact
+- Customer_Dim → Sales_Fact
+- Product_Dim → Sales_Fact
+- Region_Dim → Sales_Fact
+
+---
+
+## Power Query Transformations
+<img width="1710" height="1107" alt="Customer_Dim" src="https://github.com/user-attachments/assets/3ed1dc88-53fc-4a82-b712-6a938951e255" />
+<img width="1710" height="1107" alt="Date_Dim" src="https://github.com/user-attachments/assets/56b4dfb8-00fd-46de-945f-01a9801a9c5d" />
+<img width="1710" height="1107" alt="Product_Dim" src="https://github.com/user-attachments/assets/1cd9dd08-9db6-4b89-8578-1a222a204ff4" />
+<img width="1710" height="1107" alt="Region_Dim" src="https://github.com/user-attachments/assets/bad4e7b2-09c3-4949-ad3f-c963bfb45758" />
+<img width="1710" height="1107" alt="Return_Fact" src="https://github.com/user-attachments/assets/708a6bad-8be2-466f-932c-d2943038ed1f" />
+<img width="1710" height="1107" alt="Sales_Fact" src="https://github.com/user-attachments/assets/219c4d72-c69b-4b64-b714-0b6071d540b5" />
+
+
+
+
+
+
+The following data transformation steps were performed in Power Query:
+
+### Date_Dim
+- Created YearMonth column
+- Extracted Month Name
+- Verified Date data types
+
+### Customer_Dim
+- Created Customer Full Name
+- Created Customer Location
+
+### Product_Dim
+- Created Price Category
+- Created Product Label
+
+### Sales_Fact
+- Calculated Profit Margin %
+- Created Profit Category
+
+### Returns_Fact
+- Created Return Status
+
+These transformations improved data quality, consistency, and reporting performance.
+
+---
+
+## DAX Measures
+
+### Basic Measures
+- Total Sales
+- Total Profit
+- Total Quantity
+- Total Returns
+- Customer Count
+- Average Order Value
+- Profit Margin %
+
+### Time Intelligence Measures
+- YTD Sales
+- Previous Year Sales
+- YOY Growth %
+- Previous Month Sales
+- MOM Growth %
+
+### DAX Functions Used
+- CALCULATE
+- FILTER
+- ALL
+- SUMX
+- COUNTX
+- AVERAGEX
+- SWITCH
+- RELATED
+- TOTALYTD
+- SAMEPERIODLASTYEAR
+- PREVIOUSMONTH
+
 
 
 
