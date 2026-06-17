@@ -171,7 +171,27 @@ These transformations improved data quality, consistency, and reporting performa
 - SAMEPERIODLASTYEAR
 - PREVIOUSMONTH
 
+## Business Insights
 
+- Maharashtra, Gujarat, and Delhi generated the highest sales compared to other states.
+
+- A few products contributed a large share of overall revenue, making them the key drivers of business performance.
+
+- Consumer customers generated more sales compared to other customer segments.
+
+- Sales performance was not the same across all regions, showing opportunities for growth in underperforming areas.
+
+- Monthly sales trends helped identify peak and low-performing periods during the year.
+
+- Some product categories consistently performed better than others in terms of both sales and profit.
+
+- Customer analysis helped identify top customers based on revenue contribution.
+
+- Regional analysis highlighted states that delivered strong sales but lower profit margins.
+
+- YTD, YOY, and MOM analysis provided a clear view of business growth and performance changes over time.
+
+- The dashboard makes it easier to track KPIs and support business decisions using data rather than assumptions.
 
 
 
