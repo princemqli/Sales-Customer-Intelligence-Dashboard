@@ -32,15 +32,6 @@ The dashboard transforms raw business data into meaningful insights using Power 
 - Track YTD, YOY, and MOM growth
 - Support data-driven decision making
 
----
-
-## Tools & Technologies
-
-- Power BI Desktop
-- Power Query
-- DAX
-- Data Modeling
-- Drillthrough Analysis
 
 ---
 
@@ -78,22 +69,6 @@ The dashboard transforms raw business data into meaningful insights using Power 
 - Product Details
 - Purchase History
 
----
-
-## Key Features
-
-- Interactive Dashboards
-- KPI Monitoring
-- Time Intelligence
-- Geographic Analysis
-- Customer Segmentation
-- Drillthrough Functionality
-
----
-
-## Conclusion
-
-This dashboard provides a complete business intelligence solution for analyzing sales, customers, products, and regional performance through interactive visualizations and advanced analytics.
 
 ---
 
@@ -162,6 +137,10 @@ These transformations improved data quality, consistency, and reporting performa
 ---
 
 ## DAX Measures
+<img width="488" height="909" alt="Screenshot 2026-06-17 at 11 22 30 AM" src="https://github.com/user-attachments/assets/b538e5b1-8112-485e-9976-418ee285ffac" />
+<img width="454" height="944" alt="Screenshot 2026-06-17 at 11 23 54 AM" src="https://github.com/user-attachments/assets/3f21aeff-fd60-44b7-8e5b-2fd4ba100a65" />
+
+
 
 ### Basic Measures
 - Total Sales
